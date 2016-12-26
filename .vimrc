@@ -7,7 +7,9 @@ call vundle#begin()
 
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
+Plugin 'kien/ctrlp.vim'
 Plugin 'itchyny/lightline.vim'
+Plugin 'scrooloose/nerdtree'
 call vundle#end()            " required
 filetype plugin indent on    " required
 let g:lightline = {
